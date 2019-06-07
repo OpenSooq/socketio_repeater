@@ -1,0 +1,28 @@
+{
+  "name": "socketio_repeater_test_server",
+  "version": "0.0.1",
+  "description": "socket.io v2 test server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint -c .eslintrc.json index.js lib/",
+    "lintfix": "eslint -c .eslintrc.json --fix index.js lib/",
+    "serve": "nodemon -w index.js index.js"
+  },
+  "dependencies": {
+    "express": "~4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "private": true,
+  "author": "",
+  "license": "proprietary",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-google": ">=0.11.0",
+    "eslint-config-standard": ">=10.2.1",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-node": ">=5.2.0",
+    "eslint-plugin-promise": ">=3.6.0",
+    "eslint-plugin-standard": ">=3.0.0",
+    "nodemon": ">=1.18.5"
+  }
+}
