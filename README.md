@@ -1,6 +1,7 @@
 # Socket.IO Repeater
 ### Connect Socket.io v1 clients to Socket.io v2 server
 
+This application serves the purpose of passing messages between two differnt version of Socket IO (1.X and 2.X). Any message received from one of them is automatically passed to all others.
 
 <p>Socket.IO team announced version 2.X that is not backward-compatible, due to:</p>
 <ul><li>a breaking change related to utf-8 encoding in engine.io-parser (<a href="https://github.com/socketio/engine.io-parser/pull/81">socketio/engine.io-parser#81</a>)</li><li>an update to make the socket id on the client match the id on the server-side (<a href="https://github.com/socketio/socket.io-client/pull/1058">socketio/socket.io-client#1058</a>)</li></ul>
